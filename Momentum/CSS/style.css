@@ -1,0 +1,59 @@
+.hidden{
+  display: none;
+}
+
+body > img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%; 
+  background-repeat : no-repeat;
+  background-size : cover;
+}
+
+ul{
+  list-style:none;
+}
+
+#login-form{
+  text-align: center; 
+}
+#greeting{
+  text-align: center; 
+}
+#clock{
+  text-align: center; 
+  font-size: large;
+}
+#todo-form{
+  text-align: center; 
+}
+#todo-list{
+  text-align: center; 
+}
+#weather{
+  text-align: right;
+}
+#quote {
+  text-align: center; 
+}
+
+#todo-form input[type=text] {
+   width: 55%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  /* box-sizing: border-box;  */
+  border: none;
+  border-bottom: 2px solid Green;
+}
+#todo-form input[type=text].placeholder {
+  text-align: center;
+}
+
+
+
